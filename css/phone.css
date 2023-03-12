@@ -1,0 +1,247 @@
+@media only screen and (max-device-width: 1024px) {
+  body {
+    max-width: 900px;
+  }
+  .deliveryImg {
+    width: 700px;
+  }
+  /*выгодные условия*/
+
+  .deliveryDescription {
+    max-width: 80%;
+  }
+  .delivery {
+    width: 33%;
+  }
+  .delivery h2 {
+    font-size: 30px;
+  }
+  .deliveryDescription p {
+    font-size: 16px;
+  }
+
+  .deliveryItem {
+    width: 30%;
+  }
+  .deliveryItem h2 {
+    font-size: 20px;
+  }
+
+  /*box items*/
+
+  .aboutItems {
+    width: 700px;
+  }
+
+  .clientsReviews {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 80px 80px 80px;
+  }
+  .client {
+    width: 40%;
+  }
+  .faq {
+    width: 700px;
+  }
+}
+
+@media only screen and (max-device-width: 767px) {
+  body {
+    max-width: 95%;
+  }
+
+  header .menu a {
+    font-size: 14px;
+    margin-left: 20px;
+  }
+  header img {
+    margin-right: 10px;
+    margin-left: 20px;
+  }
+
+  .topPositionTagline {
+    width: 400px;
+  }
+
+  .fast {
+    font-size: 100px;
+    margin-bottom: 40px;
+  }
+  .fast2 {
+    font-size: 45px;
+    margin-bottom: 45px;
+  }
+  .buttons {
+    width: 90%;
+  }
+  .linkToApp {
+    width: 200px;
+  }
+  .linkToApp h5 {
+    font-size: 16px;
+  }
+  .deliveryImg {
+    width: 80%;
+  }
+
+  .delivery h2 {
+    font-size: 24px;
+  }
+  .deliveryDescription p {
+    font-size: 14px;
+  }
+
+  /*box items*/
+  .about h1 {
+    font-size: 42px;
+  }
+  .aboutItems {
+    width: 90%;
+  }
+
+  .aboutItem {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .aboutItem p {
+    width: 200px;
+  }
+  .aboutItem img {
+    width: 60px;
+  }
+  .clientsSection h1 {
+    font-size: 32px;
+  }
+  .client {
+    width: 40%;
+  }
+  .client p {
+    font-size: 12px;
+  }
+  .accordion {
+    font-size: 16px;
+    padding: 8px;
+  }
+  .faq {
+    width: 90%;
+  }
+  .contactUs {
+    margin-left: 20px;
+    width: 90%;
+  }
+  .contactUs h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  footer .footerMenu {
+    width: 160px;
+  }
+  .footerSocialMedia {
+    width: 120px;
+  }
+}
+
+@media only screen and (max-device-width: 479px) {
+  .menu {
+    opacity: 0;
+    font-size: 1px;
+  }
+  .hamburger1 {
+    opacity: 1;
+    margin-top: 10px;
+    margin-left: 80%;
+    position: absolute;
+  }
+  .hamburger {
+    font-size: 40px;
+    color: #ff8126;
+  }
+  ul li {
+    list-style: none;
+  }
+  ul a {
+    text-decoration: none;
+  }
+  .hamburgerMenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 40%;
+    padding: 15px;
+    transform: translateX(-300%);
+    transition: transform 0.5s;
+    border-radius: 24px;
+    margin-top: 20px;
+  }
+  .hamburgerMenu.active {
+    transform: translateX(0);
+  }
+  .hamburgerMenu li a {
+    list-style-type: none;
+    font-size: 24px;
+    color: #000;
+    padding-top: 10px;
+  }
+
+  .topPositionTagline {
+    width: 300px;
+  }
+
+  .fast {
+    font-size: 75px;
+    margin-bottom: 32px;
+  }
+  .fast2 {
+    font-size: 32px;
+    margin-bottom: 37px;
+  }
+  .buttons {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .deliveryDescription {
+    flex-direction: column;
+    text-align: center;
+  }
+  .delivery {
+    width: 90%;
+  }
+  .deliveryItem {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .aboutItem {
+    font-size: 16px;
+  }
+
+  .aboutItem p {
+    width: 160px;
+  }
+  .aboutItem img {
+    width: 40px;
+  }
+  .clientsReviews {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+  .client {
+    width: 80%;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  .footerMenu {
+    flex-direction: column;
+    margin: 30px 10px 30px 40px;
+  }
+  .footerSocialMedia {
+    flex-direction: column;
+    margin: 30px 10px 30px 40px;
+  }
+}
