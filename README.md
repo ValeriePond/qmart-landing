@@ -1,5 +1,15 @@
 # qmart-landing
-Landing page for the delivery app. With feedback form and adaptive design.
+
+Diploma project
+
+This project is a landing page of the marketplace for LLP "Zhemchuzhina Semirechiya". With feedback form and adaptive design.
+
+Link to demo version - https://valeriepond.github.io/qmart-landing/
+
+Used technologies: HTML+CSS
+
+For backend: PHP
+
 
 ![Screenshot_4](https://user-images.githubusercontent.com/60189171/224537667-dc605058-fe2a-4838-8227-634872505907.png)
 ![Screenshot_5](https://user-images.githubusercontent.com/60189171/224537675-25c7ab9a-d4b3-4b80-967c-a1bafae6f9ec.png)
